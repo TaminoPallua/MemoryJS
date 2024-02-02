@@ -25,7 +25,7 @@ body {
   display: inline-flex;
   text-align: center;
   justify-content: center;
-  background-image: url(/pallua_Memory/DesignImages/Galaxy.jpg);
+  background-image: url(Galaxy.jpg);
   object-fit: cover;
   transform-style: preserve-3d;
   transition: all 0.5s ease;
