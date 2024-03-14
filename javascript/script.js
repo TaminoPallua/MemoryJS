@@ -15,24 +15,24 @@ let scoreboard_matches = 0;
 let scoreboard_time = 0;
 
 const data = [
-  './images/BMW1000RR.jpg',
-  './images/R1.jpg',
-  './images/R6.jpg',
-  './images/z1000.jpg',
-  './images/Z900.jpg',
-  './images/TriumphSpeed.jpg',
-  './images/TriumphRocket.jpg',
-  './images/panigaleV4.jpg',
-  './images/NinjaH2.jpg',
-  './images/MT09.jpeg',
-  './images/Hayabusa.jpg',
-  './images/gsxr1000.jpg',
-  './images/Goldwing.jpg',
-  './images/Diavel.jpg',
-  './images/CBR1000RRR.jpg',
-  './images/Arch.jpg',
-  './images/GSX8.jpg',
-  './images/KTM.jpg',
+  './images/affeAufBaum.jpg',
+  './images/affeMitBanane.jpg',
+  './images/ameisenbär.jpg',
+  './images/basilisk-5951351.jpg',
+  './images/bird-1850910.jpg',
+  './images/flughund.jpg',
+  './images/kleinerAffe.jpg',
+  './images/lemur.jpg',
+  './images/lizard_2.jpg',
+  './images/lizard.jpg',
+  './images/pfeilgiftfrosch.jpg',
+  './images/rafflesia.jpg',
+  './images/snake.jpg',
+  './images/toucan-2247143.jpg',
+  './images/wasserFall.jpeg',
+  './images/tiger.jpg',
+  './images/kolibri.jpg',
+  './images/kolibri2.jpg',
 ];
 
 function StartGame(cards) {
@@ -217,3 +217,8 @@ function checkWin() {
     }, 800);
   }
 }
+
+//Generate Cards on Load
+window.addEventListener('DOMContentLoaded', () => {
+  StartGame(36);
+});
