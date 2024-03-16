@@ -212,6 +212,7 @@ function turnCards() {
 function checkWin() {
   if (scoreboard_matches == cardsGlobal / 2) {
     setTimeout(function () {
+      // Action for winning a game --> Diffrent styling needs to be implemented
       alert('You Won!');
       StartGame(cardsGlobal);
     }, 800);
