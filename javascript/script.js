@@ -35,6 +35,16 @@ const data = [
   './images/kolibri2.jpg',
 ];
 
+
+//Background music
+let backgroundAudio = new Audio('/audio/Level1Background.mp3');
+
+document.addEventListener('DOMContentLoaded', () => {
+  backgroundAudio.play();
+  backgroundAudio.volume = 0.5;
+});
+
+
 function StartGame(cards) {
   //Reset all variables for next Match
   cardsGlobal = cards;
